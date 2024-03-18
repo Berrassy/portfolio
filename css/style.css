@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 *,
 ::before,
 ::after {
@@ -947,8 +951,7 @@ video {
     flex-direction: row;
   }
 }
-@media (max-width: 1024px){
-  
+@media (max-width: 1024px) {
 }
 
 @media (min-width: 1280px) {
@@ -960,7 +963,6 @@ video {
     font-size: 4.5rem;
     line-height: 1;
   }
-
 }
 
 @media (min-width: 930px) {
@@ -968,4 +970,12 @@ video {
     padding-left: 20rem;
     padding-right: 20rem;
   }
+}
+.titles {
+  bottom: 0;
+  text-align: center;
+  font-size: x-large;
+}
+#projects-container img {
+  height: 15rem;
 }
